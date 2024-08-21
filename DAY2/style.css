@@ -1,0 +1,46 @@
+body{
+    background: url(https://i.pinimg.com/564x/a8/30/7f/a8307f752b7d9c28396a6441db1287b8.jpg);
+    background-size:cover ;
+}
+
+.clock{
+    border: solid #a34a77;
+    border-width: 1.5vw;
+    border-radius: 75% ;
+    min-width: 30vw;
+    min-height: 30vw;
+    padding: 20px;
+    max-width: 30vw;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
+.hand{
+    background-color: #a34a77;
+    position: absolute;
+    border: solid #a34a77;
+    width: 15vw;
+    height: 2px ;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    margin: 0vw;
+    border-width: 0.3vw;
+
+}
+.hand-sec{
+    width: 11vw;
+    margin: 4vw;     
+}
+.hand-min{
+    width: 13vw;
+    margin: 2vw;     
+}

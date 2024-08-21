@@ -12,6 +12,6 @@ window.addEventListener('keydown', function(e) {
         function () {
             key.classList.remove('playing')
         },
-        1
+        50
     ) // Add playing class for the visual effect
 });
