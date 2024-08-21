@@ -1,0 +1,42 @@
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.key{
+    padding:30px;
+    border: 4px solid #000000;
+    margin: 15px;
+    border-radius: 5px;
+    align-self: center;
+    min-width: 60px;
+    min-height: 60px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    color: #fff;
+    transition: all 0.7s ;
+}
+
+h4{
+    font-size: 2.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.key span{
+    font-size: 1.3rem;
+    color: gold;
+}
+
+.playing{
+    transform: scale(1.2);
+    box-shadow: 0 0 2rem gold;
+}
