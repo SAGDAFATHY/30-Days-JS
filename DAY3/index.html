@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Playing with css</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="text">Update CSS Variables with <span>JS</span></div>
+        <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" id="spacing" value="1" max="20" min="0" data-sizing="%">
+        <label for="blur">Blur:</label>
+        <input type="range" id="blur" value="5" max="20" min="0" data-sizing="px">
+        <label for="base">Base Color:</label>
+        <input type="color" id="base" value="#5400a3">
+        </div>
+        <img src="https://i.pinimg.com/564x/1a/9f/6f/1a9f6fd2acfbc69c597cca5e038650b8.jpg">
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+:root{
+    --base: #5400a3 ;
+    --spacing: 1%;
+    --blur:1px;
+}
+body{
+background-color: rgb(171, 142, 199);
+text-align: center;
+
+}
+
+.text{
+    font-size: 4vw ;
+    font-weight: bold;
+    color: rgb(52, 0, 101);
+}
+.text span{
+    color: var(--base);
+    font-size: 1.5em;
+}
+.controls{
+    font-size: 3vw;
+    color: rgb(52, 0, 101);
+}
+
+img{
+    margin: 1vw;
+    width: 53vw;
+    padding: var(--spacing);
+    background-color:var(--base);
+    border-radius: 10px;
+    filter: blur(var(--blur));
+}
